@@ -1,6 +1,6 @@
 import mongoose,{isValidObjectId, model, Schema} from "mongoose";
 import { ObjectId } from "mongodb";
-mongoose.connect("mongodb+srv://Fateh007:Fateh%401234@cluster0.lw472.mongodb.net/brainly")
+mongoose.connect("Your mongodb URI")
 
 const UserSchema = new Schema({
     username: {type:String, unique: true},
